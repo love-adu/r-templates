@@ -1,0 +1,18 @@
+01_load_qualtrics.R        read the csv or zip
+02_clean_sample.R          drop id columns, who counts as finished
+03_recode_helpers.R        text answers to numbers, flip items
+04_recode_items.R          recode the question blocks
+05_scales_reliability.R    scale scores and alpha
+06_sample_table.R          demographics table
+07_correlation_table.R     the big correlation table
+08_group_differences.R     compare groups
+09_paired_test.R           same people, two ratings
+10_regression.R            models with robust errors
+11_one_sample_test.R       mean vs a number
+12_data_checks_flags.R     survey problems and the flags table
+13_figures.R               ggplot stuff
+14_word_doc.R              word doc
+15_excel_export.R          tables to excel
+16_breakdown_by_group.R    every question by group
+
+fill every ____ and delete lines you dont need. run them in order lol
